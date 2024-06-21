@@ -7,16 +7,16 @@ import * as styles from "../components/index.module.css"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Pablo Picassiette" />
     <div className={styles.textCenter}>
-      <h1>Uedre Vivian</h1>
+      <h1>Pablo Picassiette</h1>
       <StaticImage
         src="../images/Pablo-picassiette.webp"
         loading="eager"
-        width={150}
+        width={250}
         quality={95}
         formats={["auto", "webp", "avif"]}
-        alt="Logo"
+        alt="Logo Pablo"
         style={{ marginBottom: `var(--space-3)` }}
       />
       <p>Developpeur Web Junior, Etudiant en Alternance</p>
